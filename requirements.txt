@@ -1,0 +1,10 @@
+datasets==3.0.1
+Flask-Cors== 4.0.1
+transformers==  4.45.1
+torchvision  ==             0.19.1
+torchaudio     ==           2.4.1
+bitsandbytes     ==         0.44.1
+accelerate         ==       0.34.2
+pandas
+nltk
+-e .
