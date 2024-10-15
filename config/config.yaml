@@ -13,3 +13,10 @@ data_validation:
   STATUS_FILE: artifacts/data_validation/status.txt
   ALL_REQUIRED_FILES: ["commongen_lite_train","data.zip"]
 
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/commongen_lite_train.csv # Update with actual dataset path
+  tokenizer_name: meta-llama/Llama-2-7b-chat-hf   # Specify the tokenizer model
+  
+
