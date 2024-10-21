@@ -1,6 +1,10 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 import torch
+import mlflow
+
+# Initialize MLflow experiment
+mlflow.set_experiment("Llama-Text-Generation")
 
 # Load dataset
 dataset = load_dataset('allenai/commongen_lite', split='train')
@@ -33,6 +37,16 @@ input_ids = tokenizer(prompt, return_tensors='pt').input_ids.to(device)  # Move 
 # Set pad_token to eos_token to avoid errors
 tokenizer.pad_token = tokenizer.eos_token
 
+# Track experiment parameters with MLflow
+with mlflow.start_run() as run:
+    # Log the prompt and other parameters
+    mlflow.log_param("prompt", prompt)
+    mlflow.log_param("model_name", "Llama-2-7b-chat-hf")
+    mlflow.log_param("max_length", 1024)
+    mlflow.log_param("temperature", 0.7)
+    mlflow.log_param("top_p", 0.9)
+    mlflow.log_param("top_k", 70)
+
 # Generate text
 with torch.no_grad():  # Disable gradient calculation to save memory
     output = model.generate(
@@ -48,3 +62,11 @@ with torch.no_grad():  # Disable gradient calculation to save memory
 # Decode and print the generated text
 generated_sentence = tokenizer.decode(output[0], skip_special_tokens=True)
 print(f"Generated Sentence: {generated_sentence}")
+
+
+
+# Log the generated text
+mlflow.log_text(generated_sentence, "generated_text.txt")
+    
+# Optionally, log the model
+mlflow.pytorch.log_model(model, "model")

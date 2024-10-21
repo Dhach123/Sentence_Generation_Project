@@ -167,3 +167,8 @@ artifacts/
 *meta-llama/Llama-2-7b-chat-hf*
 
 *meta-llama*
+
+saved_model/
+
+models/meta-llama/Llama-2-7b-chat-hf/
+
