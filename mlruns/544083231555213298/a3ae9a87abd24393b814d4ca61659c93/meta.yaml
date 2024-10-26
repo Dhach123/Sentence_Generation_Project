@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/544083231555213298/a3ae9a87abd24393b814d4ca61659c93/artifacts
+end_time: 1729917782323
+entry_point_name: ''
+experiment_id: '544083231555213298'
+lifecycle_stage: active
+run_id: a3ae9a87abd24393b814d4ca61659c93
+run_name: angry-shoat-187
+run_uuid: a3ae9a87abd24393b814d4ca61659c93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729917782271
+status: 3
+tags: []
+user_id: chopd
