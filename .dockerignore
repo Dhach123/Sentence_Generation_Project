@@ -1,0 +1,26 @@
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore any local configuration files
+*.env
+*.local
+
+# Ignore git files
+.git
+.gitignore
