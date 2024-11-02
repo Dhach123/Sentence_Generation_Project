@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/544083231555213298/3cf5fb309bcc4ca0bbe1eb3c4027789f/artifacts
+end_time: 1730390167672
+entry_point_name: ''
+experiment_id: '544083231555213298'
+lifecycle_stage: active
+run_id: 3cf5fb309bcc4ca0bbe1eb3c4027789f
+run_name: nimble-stork-625
+run_uuid: 3cf5fb309bcc4ca0bbe1eb3c4027789f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730390012418
+status: 3
+tags: []
+user_id: chopd
