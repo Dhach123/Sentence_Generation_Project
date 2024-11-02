@@ -4,8 +4,9 @@ import torch
 
 app = Flask(__name__)
 
+
 # Load the saved model and tokenizer
-model_save_path = 'artifacts/model_trainer\saved_model'  # Replace with your actual model path
+model_save_path = 'artifacts\model_trainer/saved_model'  # Replace with your actual model path
 
 # Load the model with 8-bit quantization
 model = AutoModelForCausalLM.from_pretrained(
