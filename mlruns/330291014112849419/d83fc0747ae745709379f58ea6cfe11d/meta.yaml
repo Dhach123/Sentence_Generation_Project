@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/330291014112849419/d83fc0747ae745709379f58ea6cfe11d/artifacts
+end_time: 1731120650461
+entry_point_name: ''
+experiment_id: '330291014112849419'
+lifecycle_stage: active
+run_id: d83fc0747ae745709379f58ea6cfe11d
+run_name: painted-tern-38
+run_uuid: d83fc0747ae745709379f58ea6cfe11d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731120048283
+status: 4
+tags: []
+user_id: chopd

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/330291014112849419/fa97c4e39aa44a158a0f2600fd383d93/artifacts
+end_time: 1731121366094
+entry_point_name: ''
+experiment_id: '330291014112849419'
+lifecycle_stage: active
+run_id: fa97c4e39aa44a158a0f2600fd383d93
+run_name: painted-bee-755
+run_uuid: fa97c4e39aa44a158a0f2600fd383d93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731121063788
+status: 4
+tags: []
+user_id: chopd

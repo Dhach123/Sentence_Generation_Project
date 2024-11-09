@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/330291014112849419/2a9ec20483f4432daa87d221d3ac062f/artifacts
+end_time: 1731126660124
+entry_point_name: ''
+experiment_id: '330291014112849419'
+lifecycle_stage: active
+run_id: 2a9ec20483f4432daa87d221d3ac062f
+run_name: hilarious-skunk-502
+run_uuid: 2a9ec20483f4432daa87d221d3ac062f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731126644944
+status: 3
+tags: []
+user_id: chopd

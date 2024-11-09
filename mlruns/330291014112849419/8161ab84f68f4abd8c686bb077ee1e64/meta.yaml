@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/330291014112849419/8161ab84f68f4abd8c686bb077ee1e64/artifacts
+end_time: 1731124823989
+entry_point_name: ''
+experiment_id: '330291014112849419'
+lifecycle_stage: active
+run_id: 8161ab84f68f4abd8c686bb077ee1e64
+run_name: funny-jay-46
+run_uuid: 8161ab84f68f4abd8c686bb077ee1e64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731124823153
+status: 3
+tags: []
+user_id: chopd

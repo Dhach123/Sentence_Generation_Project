@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Sentence_Generation_Project/mlruns/330291014112849419/2b8072c392834215a683ae1dd4f65383/artifacts
+end_time: 1731123336672
+entry_point_name: ''
+experiment_id: '330291014112849419'
+lifecycle_stage: active
+run_id: 2b8072c392834215a683ae1dd4f65383
+run_name: wistful-hare-442
+run_uuid: 2b8072c392834215a683ae1dd4f65383
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731123079952
+status: 3
+tags: []
+user_id: chopd
