@@ -29,8 +29,20 @@ python -m pip install -r requirements.txt
 # Finally run the following command
 python app.py
 
-open up you local host and port  for UI Interface 
+open up you local host and port for UI Interface 
 
+# Experiment Tracking for hyperparametertuning 
+MLFLOW for experiment tracking is used
 
-Important Notes- Make sure you create .ignore file in project setup to untrack Large artifacts project file of models/meta-llama/Llama-2-7b-chat-hf/   
+# Deployment 
+Model is deployed locally due to resource constraints for this heavy model
+
+# KEY Highlites and Important Notes
+
+1) Make sure you create .ignore file in project setup to untrack Large artifacts project file of models/meta-llama/Llama-2-7b-chat-hf/ 
+2) To avoid CUDA out of memory error the LLAMA model was loaded using bitandbites library
+3) My GPU memory is 4GB
+4) Handled lot of challenges to fix CUDA out of memory 
+5) Pretrained LLAMA model used and avoided model training. 
+6) Model results were as expected
 
